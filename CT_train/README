@@ -1,1 +1,2 @@
-#Place the CT volume for training into this folder
+#Place the CT volumes for training into this folder
+File format: NIFTI (.nii) 
