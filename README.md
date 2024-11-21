@@ -12,7 +12,18 @@ Deep Learning in Medical Image Analysis (DLMIA) 2018. (Oral)
 Original algortihm available on: https://github.com/MrGiovanni/UNetPlusPlus 
 
 
+
+
 Explanation
+
+Pre-processing: 
+1. Convert DICOM images to NIFTI files (can use software such as 3D slicer or codes)
+2. Run pre-processing code
+Adapted from MedSAM link available:  
+Windowing set to level of 300 and width of 3000
+
+Input: DICOM files of CT paranasal sinuses (bony axial windows with 0.625mm slices) 
+Output: NIFTI (.nii) 
 
 Folders:
 CT_train and Mask_train: place the CT volumes and Segmentation volumes for training into these folders separately.
