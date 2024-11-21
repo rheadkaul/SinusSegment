@@ -18,22 +18,22 @@ Explanation
 
 **Pre-processing: **
 1. Convert DICOM images to NIFTI files (can use software such as 3D slicer or codes)
-2. Choose pre-processing code
+2. Choose pre-processing code/
 Adapted from MedSAM link available: https://github.com/bowang-lab/MedSAM
 Ma, J., He, Y., Li, F. et al. Segment anything in medical images. Nat Commun 15, 654 (2024). https://doi.org/10.1038/s41467-024-44824-z
 Article on: https://www.nature.com/articles/s41467-024-44824-z
-3. Ensure windowing set to level of 300 and width of 3000
+4. Ensure windowing set to level of 300 and width of 3000
 
 Input: DICOM files of CT paranasal sinuses (bony axial windows with 0.625mm slices) 
 Output: NIFTI (.nii) 
 
 **Training/Testing: **
 
-Choose a split of your data for training and testing i.e. 80:20 
-Input: NIFTI (.nii) 
+Choose a split of your data for training and testing i.e. 80:20/
+Input: NIFTI (.nii) /
 Output: NIFTI (.nii) 
 
-Folders:
+Folders:/
 CT_train and Mask_train: place the CT volumes and Segmentation volumes for training into these folders separately.
 CT_test and Mask_test: put the CT volumes and Segmentation volumes for testing into these folders separately.
 
