@@ -35,7 +35,8 @@ Input: NIFTI (.nii)
 
 Output: NIFTI (.nii) 
 
-Folders:/
+Folders:
+
 CT_train and Mask_train: place the CT volumes and Segmentation volumes for training into these folders separately.
 CT_test and Mask_test: put the CT volumes and Segmentation volumes for testing into these folders separately.
 
@@ -46,6 +47,7 @@ Parameters: contains the parameter of network.
 Seg_prediction: will save the result of prediction from network.
 
 Files:
+
 Training.py: training network and a save the parameters into folder Parameters
 Testing.py: output the segmentation result and save them into folder Seg_prediction.
 Load_dataset.py: loading training and testing dataset.
