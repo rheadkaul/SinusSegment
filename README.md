@@ -1,4 +1,4 @@
-SinusSegment is an open segmentation algorithm adapted from UNet++ for the purpose of segmentating computed tomography paranasal sinus imaging. 
+SinusSegment is an open segmentation algorithm adapted from UNet++ for the purpose of segmenting computed tomography paranasal sinus imaging. 
 In our study, we segmented all of the five paranasal sinuses (maxillary, anterior ethmoid, posterior ethmoid, sphenoid and frontal) along with the nasal cavity (anteriorly in line from the nasal bones to the anterior nasal spine and posteriorly in a line from the posterior wall of the sphenoid sinus to the posterior end of the hard palate). 
 Our paper explaining the application is linked below: (INSERT link here) 
 
