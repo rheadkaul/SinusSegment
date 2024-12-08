@@ -17,7 +17,7 @@ Original algortihm available on: https://github.com/MrGiovanni/UNetPlusPlus
 Explanation
 
 **Pre-processing: **
-1. Convert DICOM images to NIFTI files (can use software such as 3D slicer or codes)
+1. Convert DICOM images to NIFTI files (can use software such as 3D slicer or python code)
 2. Choose pre-processing code/
 Adapted from MedSAM link available: https://github.com/bowang-lab/MedSAM
 Ma, J., He, Y., Li, F. et al. Segment anything in medical images. Nat Commun 15, 654 (2024). https://doi.org/10.1038/s41467-024-44824-z
@@ -40,7 +40,7 @@ Folders:
 CT_train and Mask_train: place the CT volumes and Segmentation volumes for training into these folders separately.
 CT_test and Mask_test: put the CT volumes and Segmentation volumes for testing into these folders separately.
 
-Please note that the Name of your files putted in to XX_train and XX_test should be same.
+Please note that the Name of your files put in to XX_train and XX_test should be same.
 For example: If you have a CT scan named E1.nii in CT_train, have to also name Segmentation volume E1.nii in Mask_train.
 
 Parameters: contains the parameter of network.
@@ -50,5 +50,5 @@ Files:
 
 Training.py: training network and a save the parameters into folder Parameters
 Testing.py: output the segmentation result and save them into folder Seg_prediction.
-Load_dataset.py: loading training and testing dataset.
+Load_dataset.py: loading, training and testing dataset.
 UnetPlusPlus.py: architecture of UnetPlusPlus.
