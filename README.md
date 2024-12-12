@@ -14,9 +14,9 @@ Original algortihm available on: https://github.com/MrGiovanni/UNetPlusPlus
 
 
 
-Explanation
+**Explanation**
 
-**Pre-processing: **
+**Pre-processing:**
 1. Convert DICOM images to NIFTI files (can use software such as 3D slicer or python code)
 2. Choose pre-processing code/
 Adapted from MedSAM link available: https://github.com/bowang-lab/MedSAM
@@ -27,7 +27,7 @@ Article on: https://www.nature.com/articles/s41467-024-44824-z
 Input: DICOM files of CT paranasal sinuses (bony axial windows with 0.625mm slices) 
 Output: NIFTI (.nii) 
 
-**Training/Testing: **
+**Training/Testing:**
 
 Choose a split of your data for training and testing i.e. 80:20
 
