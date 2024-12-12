@@ -14,9 +14,9 @@ Original algortihm available on: https://github.com/MrGiovanni/UNetPlusPlus
 
 
 
-**Explanation**
+# **Explanation**
 
-**Pre-processing:**
+## **Pre-processing:**
 1. Convert DICOM images to NIFTI files (can use software such as 3D slicer or python code)
 2. Choose pre-processing code/
 Adapted from MedSAM link available: https://github.com/bowang-lab/MedSAM
@@ -27,7 +27,7 @@ Article on: https://www.nature.com/articles/s41467-024-44824-z
 Input: DICOM files of CT paranasal sinuses (bony axial windows with 0.625mm slices) 
 Output: NIFTI (.nii) 
 
-**Training/Testing:**
+## **Training/Testing:**
 
 Choose a split of your data for training and testing i.e. 80:20
 
@@ -35,7 +35,7 @@ Input: NIFTI (.nii)
 
 Output: NIFTI (.nii) 
 
-Folders:
+## Folders:
 
 CT_train and Mask_train: place the CT volumes and Segmentation volumes for training into these folders separately.
 CT_test and Mask_test: put the CT volumes and Segmentation volumes for testing into these folders separately.
@@ -46,7 +46,7 @@ For example: If you have a CT scan named E1.nii in CT_train, have to also name S
 Parameters: contains the parameter of network.
 Seg_prediction: will save the result of prediction from network.
 
-Files:
+## Files:
 
 Training.py: training network and a save the parameters into folder Parameters
 Testing.py: output the segmentation result and save them into folder Seg_prediction.
