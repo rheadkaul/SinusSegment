@@ -17,11 +17,13 @@ Original algortihm available on: https://github.com/MrGiovanni/UNetPlusPlus
 ## **Pre-processing:**
 1. Convert DICOM images to NIFTI files (can use software such as 3D slicer or python code)
 2. Choose pre-processing code/
-Adapted from MedSAM link available: https://github.com/bowang-lab/MedSAM
+    Adapted from MedSAM link available: https://github.com/bowang-lab/MedSAM
 
-Ma, J., He, Y., Li, F. et al. Segment anything in medical images. Nat Commun 15, 654 (2024). https://doi.org/10.1038/s41467-024-44824-z
-Article on: https://www.nature.com/articles/s41467-024-44824-z
-4. Ensure windowing set to level of 300 and width of 3000
+    Ma, J., He, Y., Li, F. et al. Segment anything in medical images. Nat Commun 15, 654 (2024). https://doi.org/10.1038/s41467-024-44824-z
+    Article on: https://www.nature.com/articles/s41467-024-44824-z
+
+3. Ensure windowing set to level of 300 and width of 3000
+4. Run pre-processing code
 
 Input: DICOM files of CT paranasal sinuses (bony axial windows with 0.625mm slices) 
 Output: NIFTI (.nii) 
