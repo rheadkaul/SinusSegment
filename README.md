@@ -25,17 +25,17 @@ Original algortihm available on: https://github.com/MrGiovanni/UNetPlusPlus
 3. Ensure windowing set to level of 300 and width of 3000
 4. Run pre-processing code
 
-Input: DICOM files of CT paranasal sinuses (bony axial windows with 0.625mm slices) 
+### Input: DICOM files of CT paranasal sinuses (bony axial windows with 0.625mm slices) 
 
-Output: NIFTI (.nii) 
+### Output: NIFTI (.nii) 
 
 ## **Training/Testing:**
 
 Choose a split of your data for training and testing i.e. 80:20
 
-Input: NIFTI (.nii) 
+### Input: NIFTI (.nii) 
 
-Output: NIFTI (.nii) 
+### Output: NIFTI (.nii) 
 
 ## Folders:
 
