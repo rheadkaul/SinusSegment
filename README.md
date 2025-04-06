@@ -45,7 +45,7 @@ CT_test and Mask_test: put the CT volumes and Segmentation volumes for testing i
 Please note that the Name of your files put in to XX_train and XX_test should be same.
 For example: If you have a CT scan named E1.nii in CT_train, have to also name Segmentation volume E1.nii in Mask_train.
 
-Parameters: contains the parameter of network.
+Default_parameters: contains the parameter of network.
 Seg_prediction: will save the result of prediction from network.
 
 ## Files:
