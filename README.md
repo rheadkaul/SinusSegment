@@ -45,7 +45,6 @@ CT_test and Mask_test: put the CT volumes and Segmentation volumes for testing i
 Please note that the Name of your files put in to XX_train and XX_test should be same.
 For example: If you have a CT scan named E1.nii in CT_train, have to also name Segmentation volume E1.nii in Mask_train.
 
-Default_parameters: contains the parameter of network.
 Seg_prediction: will save the result of prediction from network.
 
 ## Files:
@@ -57,3 +56,5 @@ Testing.py: output the segmentation result and save them into folder Seg_predict
 Load_dataset.py: loading, training and testing dataset.
 
 UnetPlusPlus.py: architecture of UnetPlusPlus.
+
+Default_parameters: contains the parameters of network
